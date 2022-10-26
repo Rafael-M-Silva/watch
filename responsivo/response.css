@@ -1,6 +1,7 @@
 @media screen and (max-width: 700px) {
     .hours{
         width: 500px;
+        gap: 20px;
     }
     .watch{
         padding: 10px;
@@ -9,12 +10,8 @@
 
 @media screen and (max-width: 500px) {
     .hours{
-        width: 400px;
-        height: 200px;
-        gap: 5px;
-    }
-    .watch{
-        padding: 10px;
+        width: 420px;
+        gap: 10px;
     }
     p{
         font-size: 5rem;
@@ -26,24 +23,46 @@
     }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 420px) {
     .hours{
-        width: 350px;
-        height: 200px;
-        gap: 5px;
-    }
-    .watch{
-        padding: 10px;
+        width: 380px;
+        padding: 20px;
     }
     p{
-        font-size: 4rem;
+        font-size: 3rem;
         width: 80px;
-        height: 100px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
     span{
         font-size: 1rem;
     }
 }
+@media screen and (max-width: 380px) {
+    .hours{
+        width: 350px;
+    }
+    p{
+        font-size: 3rem;
+        width: 70px;
+    }
+    span{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    main {
+      background-image: url(../img/rick-500.png);
+    }
+    .hours{
+        margin-bottom: 200px;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    main {
+      background-image: url(../img/rick-500.png);
+    }
+    .hours{
+        margin-bottom: 200px;
+    }
+  }

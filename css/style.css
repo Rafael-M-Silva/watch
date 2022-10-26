@@ -6,26 +6,31 @@
 }
 
 main{
-    background-color: rgb(15, 15, 15);
+    background-color: rgb(46, 66, 104);
+    background-image: url(../img/rick.png);
+    background-position: top;
+    background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     font-family: 'Share Tech Mono', monospace;
     color: whitesmoke;
 }
 
 .hours{
-    background: rgb(143, 255, 121);
+    background: rgba(143, 255, 121, 0.664);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
     width: 700px;
-    height: 250px;
-    box-shadow: rgba(143, 255, 121, 0.753) -1px 1px 15px;
+    padding: 30px;
     border-radius: 10px;
+    margin-bottom: 80px;
+    border: 3px solid black;
+    animation: piscar 1s infinite alternate;
 }
 p{
     font-size: 6rem;
@@ -37,9 +42,18 @@ span{
     text-shadow: rgba(143, 255, 121, 0.726) -1px 1px 5px;
 }
 .watch{
-    background: rgb(22, 22, 22);
+    background: rgba(22, 22, 22, 0.973);
     padding: 20px;
     border-radius: 8px;
     box-shadow: black -2px 2px 10px;
+    border: 3px solid black;
 }
 
+@keyframes piscar {
+    from{
+        
+    }
+    to{
+        box-shadow: rgb(107, 247, 100) 0px 0px 15px;
+    }
+}
