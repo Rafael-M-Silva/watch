@@ -1,0 +1,49 @@
+@media screen and (max-width: 700px) {
+    .hours{
+        width: 500px;
+    }
+    .watch{
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .hours{
+        width: 400px;
+        height: 200px;
+        gap: 5px;
+    }
+    .watch{
+        padding: 10px;
+    }
+    p{
+        font-size: 5rem;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .hours{
+        width: 350px;
+        height: 200px;
+        gap: 5px;
+    }
+    .watch{
+        padding: 10px;
+    }
+    p{
+        font-size: 4rem;
+        width: 80px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    span{
+        font-size: 1rem;
+    }
+}
